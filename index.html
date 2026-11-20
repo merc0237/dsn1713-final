@@ -21,7 +21,7 @@
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="nav justify-content-end">
+                              <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
@@ -50,9 +50,9 @@
     </header>
     
     <main>
-        <section id="hero">
-        <div class="container"> 
-             <div>
+        <section id="hero-main">
+        <div class="container row p-4"> 
+             <div class="col-3">
                 <div class="d-flex flex-column">
                 <h1 class="">Ottawa's Italian Deli Since 1973</h1>
                 <p>We're a legendary, family-run Italian corner store and sandwich shop located in the heart of Ottawa's Little Italy</p>
@@ -64,42 +64,49 @@
         </section>
 
         <section id="Menu">
-            <div>
-                <h2 class="">Explore Our Menu</h2>
-                <p class="">$10.00 each tax included</p>
-                <h3 class="">Classic Sandwiches</h3>
-                <p class="">Pick from one of our 18 Classic Sandwiches</p>
-                <h3 class="">Custom Sandwiches</h3>
-                <p class="">Feel like a little something different? Pick from one of our custom sandwiches!</p>
-                <h3 class="">Daily Sandwich Specials</h3>
-                <p class="">Feel like a little something special? Try one of our daily specials!</p>
-                <h3 class="">Daily Pasta Specials</h3>
-                  <p class="">Try something from our fresh homemade pasta specials!</p>
-                <button type="button" class="btn btn-primary btn-lg">VIEW MENU</button> 
+            <div class="row p-4">
+                <div class="col-3">
+                    <h2 class="">Explore Our Menu</h2>
+                    <p class="">$10.00 each tax included</p>
+                    <h3 class="">Classic Sandwiches</h3>
+                    <p class="">Pick from one of our 18 Classic Sandwiches</p>
+                    <h3 class="">Custom Sandwiches</h3>
+                    <p class="">Feel like a little something different? Pick from one of our custom sandwiches!</p>
+                    <h3 class="">Daily Sandwich Specials</h3>
+                    <p class="">Feel like a little something special? Try one of our daily specials!</p>
+                    <h3 class="">Daily Pasta Specials</h3>
+                    <p class="">Try something from our fresh homemade pasta specials!</p>
+                    <button type="button" class="btn btn-primary btn-lg">VIEW MENU</button>
+                </div> 
             </div>
-            <div>
-                <img src="images/home-explore-our-menu-1x-647.webp" alt="chef assembling a prosciutto sandwich">
+            <div class="row p-4">
+                <div class="col-3">
+                    <img src="images/home-explore-our-menu-1x-647.webp" alt="chef assembling a prosciutto sandwich">
+                </div>
             </div>
          </section>
 
         <section id="Catering">
-              <div>
-                <img src="images/home-catering-for-any-occasion-1x-690.webp" alt="Glasses of red wine and plates of food on a long table">
+            <div class="row p-4">
+                <div class="col-3">
+                    <img src="images/home-catering-for-any-occasion-1x-690.webp" alt="Glasses of red wine and plates of food on a long table">
+                </div>
             </div>
-            <div>
-             <h2 class="">Catering for Any Occasion</h2>
-             <h3 class="">Let us cater your next event!</h3>
-             <li>Whatever your event, our team will prepare your order using the same quality ingredients you find in the store. Our selection of trays include:
-                <ul>
-                <li>Meat & Cheese</li>
-                <li>Vegetables</li>
-                <li>Fresh Cut Fruit</li>
-                <li>Lasagna</li>
-                <li>Tortellini</li>
-                <li>Penne</li>
-                <li>Dessert</li>
-                </ul>
-
+            <div class="row p-4">
+                <div class="col-3">
+                    <h2 class="">Catering for Any Occasion</h2>
+                    <h3 class="">Let us cater your next event!</h3>
+                    <li>Whatever your event, our team will prepare your order using the same quality ingredients you find in the store. Our selection of trays include:
+                        <ul>
+                        <li>Meat & Cheese</li>
+                        <li>Vegetables</li>
+                        <li>Fresh Cut Fruit</li>
+                        <li>Lasagna</li>
+                        <li>Tortellini</li>
+                        <li>Penne</li>
+                        <li>Dessert</li>
+                        </ul>
+                </div>
             </div>
         </section>
 
@@ -129,16 +136,18 @@
             </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
-          <ul class="list-unstyled d-flex gap-2 m-4">
-            <li><a href="#"><img src="icons/instagram.svg" alt="Instagram logo" width="28" height="auto"></a></li>
-            <li><a href="#"><img src="icons/facebook.svg" alt="Facebook logo" width="28" height="auto"></a></li>
-          </ul>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-bottom border-primary">
             <div>
-            <span>&copy; 2026 Di Rienzo. All rights reserved.</span>
-            <span>Privacy Policy | Terms of Service | Site Credits</span>
-            </div>
-        </div>    
+                <ul class="list-unstyled d-flex gap-2 m-4">
+                    <li><a href="#"><img src="icons/instagram.svg" alt="Instagram logo" width="28" height="auto"></a></li>
+                    <li><a href="#"><img src="icons/facebook.svg" alt="Facebook logo" width="28" height="auto"></a></li>
+                </ul>
+            </div> 
+        </div> 
+        <div>
+                <span>&copy; 2026 Di Rienzo. All rights reserved.</span>
+                <span>Privacy Policy | Terms of Service | Site Credits</span>
+            </div> 
     </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
