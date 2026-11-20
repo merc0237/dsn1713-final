@@ -5,23 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Di Rienzo Deli</title>
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous"></script>
     <!-- Custom Stylesheet -->
      <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
-
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                        <img src="icons/logo.svg" alt="Di Rienzo Deli Logo" width="100" height="100">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Menu</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">Catering</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                        </ul>
+                        </div>
+                        <form class="container-fluid justify-content-start">
+                            <button class="btn btn-outline-success me-2" type="button">Order Online</button>
+                        </form>
+                        <a class="navbar-brand" href="#">
+                        <img src="icons/cart.svg" alt="cart" width="30" height="30">
+                        </a>
+                    </div>
+            </nav>
     </header>
     
     <main>
+        <section id="hero">
+        <div class="container"> 
+             <div>
+                <div class="d-flex flex-column">
+                <h1 class="">Ottawa's Italian Deli Since 1973</h1>
+                <p>We're a legendary, family-run Italian corner store and sandwich shop located in the heart of Ottawa's Little Italy</p>
+                <p>It only takes one!</p>
+                 <button type="button" class="btn btn-primary btn-lg">START AN ORDER</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="Menu">
+            <div>
+                <h2 class="">Explore Our Menu</h2>
+                <p class="">$10.00 each tax included</p>
+                <h3 class="">Classic Sandwiches</h3>
+                <p class="">Pick from one of our 18 Classic Sandwiches</p>
+                <h3 class="">Custom Sandwiches</h3>
+                <p class="">Feel like a little something different? Pick from one of our custom sandwiches!</p>
+                <h3 class="">Daily Sandwich Specials</h3>
+                <p class="">Feel like a little something special? Try one of our daily specials!</p>
+                <h3 class="">Daily Pasta Specials</h3>
+                  <p class="">Try something from our fresh homemade pasta specials!</p>
+                <button type="button" class="btn btn-primary btn-lg">VIEW MENU</button> 
+            </div>
+            <div>
+                <img src="images/home-explore-our-menu-1x-647.webp" alt="chef assembling a prosciutto sandwich">
+            </div>
+         </section>
+
+        <section id="Catering">
+              <div>
+                <img src="images/home-catering-for-any-occasion-1x-690.webp" alt="Glasses of red wine and plates of food on a long table">
+            </div>
+            <div>
+             <h2 class="">Catering for Any Occasion</h2>
+             <h3 class="">Let us cater your next event!</h3>
+             <li>Whatever your event, our team will prepare your order using the same quality ingredients you find in the store. Our selection of trays include:
+                <ul>
+                <li>Meat & Cheese</li>
+                <li>Vegetables</li>
+                <li>Fresh Cut Fruit</li>
+                <li>Lasagna</li>
+                <li>Tortellini</li>
+                <li>Penne</li>
+                <li>Dessert</li>
+                </ul>
+
+            </div>
+        </section>
 
     </main>
 
-    <footer>
-        
+    <footer class="py-5 container">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3"> 
+                <h4>QUICK LINKS</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">Home</li>
+                    <li class="nav-item mb-2">Menu</li>
+                    <li class="nav-item mb-2">Catering</li>
+                    <li class="nav-item mb-2">About</li>
+                    <li class="nav-item mb-2">Contact</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3"> 
+                <h4>CONTACT US</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">111 Beach Street, Ottawa, ON K1S 4P1</li>
+                    <li class="nav-item mb-2">(613) 792-4037</li>
+                    <li class="nav-item mb-2">dirienzo.ca</li>
+                    <li class="nav-item mb-2">Weekday: 8:30 AM - 7:00 PM</li>
+                    <li class="nav-item mb-2">Weekend: 10:00 AM - 5:00 PM</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+          <ul class="list-unstyled d-flex gap-2 m-4">
+            <li><a href="#"><img src="icons/instagram.svg" alt="Instagram logo" width="28" height="auto"></a></li>
+            <li><a href="#"><img src="icons/facebook.svg" alt="Facebook logo" width="28" height="auto"></a></li>
+          </ul>
+            <div>
+            <span>&copy; 2026 Di Rienzo. All rights reserved.</span>
+            <span>Privacy Policy | Terms of Service | Site Credits</span>
+            </div>
+        </div>    
     </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
