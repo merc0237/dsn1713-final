@@ -42,7 +42,8 @@
 }
 
 h1 {
-  font-family: "Sant'Elio Rough", serif;
+  font-family: "santelia-rough-two", serif;
+  color: #B98831;
 }
 
 body {
@@ -52,8 +53,5 @@ body {
 .border-primary {
     border: solid; 
     border-top-color: var(--bs-green);
-
-
-
     
 }

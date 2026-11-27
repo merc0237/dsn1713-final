@@ -7,7 +7,7 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous"></script>
     <!-- Adobe Fonts Link -->
-    
+    <link rel="stylesheet" href="https://use.typekit.net/raj0kor.css">
     <!-- Custom Stylesheet -->
      <link rel="stylesheet" href="css/main.css">
 </head>
@@ -25,25 +25,25 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                               <ul class="navbar-nav mx-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Menu</a>
+                                    <a class="nav-link fw-bold" href="#">Menu</a>
                                 </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Catering</a>
+                                    <a class="nav-link fw-bold" href="#">Catering</a>
                                 </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link fw-bold" href="#">About</a>
                                 </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link fw-bold" href="#">Contact</a>
                                 </li>
                         </ul>
                         </div>
                         <div class="d-flex align-items-center ms-lg-3">
                             <form class="justify-content-start">
-                                <button class="btn btn-outline-success me-2" type="button">Order Online</button>
+                                <button class="btn btn-outline-success me-2 fw-bold" type="button">Order Now</button>
                             </form>
                             <a class="navbar-brand" href="#">
                             <img src="icons/cart.svg" alt="cart" width="30" height="30">
@@ -58,35 +58,39 @@
         <div class="container">
             <div class="row justify-content-end p-4"> 
                 <div class="col-12 col-md-5 bg-primary rounded-4">
-                    <div class="d-flex flex-column p-4">
-                    <h1 class="text-light">Ottawa's Italian Deli Since 1973</h1>
-                    <p class="text-light">We're a legendary, family-run Italian corner store and sandwich shop located in the heart of Ottawa's Little Italy</p>
-                    <p class="text-light">It only takes one!</p>
-                    <button type="button" class="btn btn-primary btn-lg">START AN ORDER</button>
-                 </div>
+                    <div class="bg-primary p-4">
+                            <div class="d-flex flex-column p-4">
+                            <h1 class="text-light">Ottawa's Italian Deli Since 1973</h1>
+                            <p class="text-light">We're a legendary, family-run Italian corner store and sandwich shop located in the heart of Ottawa's Little Italy</p>
+                            <p class="text-light fw-bold">It only takes one!</p>
+                            <button type="button" class="btn btn-primary btn-lg align-self-center mt-5 fw-bold">START AN ORDER</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
         </section>
 
         <section id="Menu" class="py-5 bg-secondary">
             <div class="container">
-                <div class="row justify-content-center align-items-center g-5">
+                <div class="row justify-content-center g-5">
                     <div class="col-12 col-md-5 bg-primary text-light p-4 rounded-4" data-bs-theme="dark">
-                        <h2 class="">Explore Our Menu</h2>
-                        <p class="">$10.00 each tax included</p>
-                        <h3 class="">Classic Sandwiches</h3>
-                        <p class="">Pick from one of our 18 Classic Sandwiches</p>
-                        <h3 class="">Custom Sandwiches</h3>
-                        <p class="">Feel like a little something different? Pick from one of our custom sandwiches!</p>
-                        <h3 class="">Daily Sandwich Specials</h3>
-                        <p class="">Feel like a little something special? Try one of our daily specials!</p>
-                        <h3 class="">Daily Pasta Specials</h3>
-                        <p class="">Try something from our fresh homemade pasta specials!</p>
-                        <button type="button" class="btn btn-primary btn-lg">VIEW MENU</button>
+                        <div class="d-flex flex-column bg-primary p-4">
+                            <h2 class="fw-bold">Explore Our Menu</h2>
+                            <p class="">$10.00 each tax included</p>
+                            <h3 class="fw-bold">Classic Sandwiches</h3>
+                            <p class="">Pick from one of our 18 Classic Sandwiches</p>
+                            <h3 class="fw-bold">Custom Sandwiches</h3>
+                            <p class="">Feel like a little something different? Pick from one of our custom sandwiches!</p>
+                            <h3 class="fw-bold">Daily Sandwich Specials</h3>
+                            <p class="">Feel like a little something special? Try one of our daily specials!</p>
+                            <h3 class="fw-bold">Daily Pasta Specials</h3>
+                            <p class="">Try something from our fresh homemade pasta specials!</p>
+                            <button type="button" class="btn btn-primary btn-lg align-self-center mt-5 fw-bold">VIEW MENU</button>
+                        </div>
                     </div> 
                         <div class="col-12 col-md-5">
-                        <img class="img-f" src="images/home-explore-our-menu-1x-647.webp" alt="chef assembling a prosciutto sandwich">
+                        <img class="img-fluid w-100 h-100" src="images/home-explore-our-menu-1x-647.webp" alt="chef assembling a prosciutto sandwich">
                     </div>
                 </div>
             </div>
@@ -94,24 +98,26 @@
 
         <section id="Catering" class="py-5 bg-light">
             <div class="container">
-                <div class="row justify-content-center align-items-center g-5">
+                <div class="row justify-content-center g-5">
                     <div class="col-12 col-md-5">
-                        <img class="img-fluid" src="images/home-catering-for-any-occasion-1x-690.webp" alt="Glasses of red wine and plates of food on a long table">
+                        <img class="img-fluid w-100 h-100" src="images/home-catering-for-any-occasion-1x-690.webp" alt="Glasses of red wine and plates of food on a long table">
                     </div>
                     <div class="col-12 col-md-5 bg-primary text-light p-4 rounded-4">
-                        <h2 class="">Catering for Any Occasion</h2>
-                        <h3 class="">Let us cater your next event!</h3>
-                        <p>Whatever your event, our team will prepare your order using the same quality ingredients you find in the store. Our selection of trays include:
-                            <ul>
-                            <li>Meat & Cheese</li>
-                            <li>Vegetables</li>
-                            <li>Fresh Cut Fruit</li>
-                            <li>Lasagna</li>
-                            <li>Tortellini</li>
-                            <li>Penne</li>
-                            <li>Dessert</li>
-                            </ul>
-                        <button type="button" class="btn btn-primary btn-lg">CATERING MENU</button>
+                        <div class="d-flex flex-column bg-primary p-4">
+                            <h2 class="fw-bold">Catering for Any Occasion</h2>
+                            <h3 class="fw-bold">Let us cater your next event!</h3>
+                            <p>Whatever your event, our team will prepare your order using the same quality ingredients you find in the store. Our selection of trays include:</p>
+                                <ul>
+                                <li>Meat & Cheese</li>
+                                <li>Vegetables</li>
+                                <li>Fresh Cut Fruit</li>
+                                <li>Lasagna</li>
+                                <li>Tortellini</li>
+                                <li>Penne</li>
+                                <li>Dessert</li>
+                                </ul>
+                            <button type="button" class="btn btn-primary btn-lg align-self-center mt-5 fw-bold">CATERING MENU</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-3 mb-3"> 
-                    <h4>QUICK LINKS</h4>
+                    <h4 class="fw-bold fs-5">QUICK LINKS</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">Home</li>
                         <li class="nav-item mb-2">Menu</li>
@@ -132,7 +138,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-5 mb-3"> 
-                    <h4>CONTACT US</h4>
+                    <h4 class="fw-bold fs-5">CONTACT US</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">111 Beach Street, Ottawa, ON K1S 4P1</li>
                         <li class="nav-item mb-2">(613) 792-4037</li>
