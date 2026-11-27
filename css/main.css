@@ -7,8 +7,7 @@
     --bs-bg-primary: #2B2B2B;
     --bs-bg-primary-rgb: 43, 43, 43;
     --bs-secondary: #B98831;
-    --bs-secondary: 185, 136, 49;
-    --bs-secondary-rgb:  
+    --bs-secondary-rgb: 185, 136, 49; 
     --bs-light: #F8F4D7;
     --bs-light-rgb: 248, 244, 215;
     --bs-dark: #2b2b2b;
@@ -17,6 +16,7 @@
     --bs-body-tertiary: #2b2b2b;
     --bs-body-tertiary-rgb:43, 43, 43;
     --bs-green: #237447;
+    --bs-green-rgb: rgb(35, 116, 71);
     --bs-red: #D7263D;
 
 }
@@ -50,6 +50,10 @@ body {
 }
 
 .border-primary {
-    --bs-border-color: var(--bs-green);
+    border: solid; 
+    border-top-color: var(--bs-green);
+
+
+
     
 }
